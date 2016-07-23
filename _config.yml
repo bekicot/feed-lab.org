@@ -14,3 +14,11 @@ exclude:
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" 
+    values:
+      use_jumbotron: "yes"
+      show_on_menu: "yes"

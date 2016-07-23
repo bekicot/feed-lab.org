@@ -1,4 +1,4 @@
 {% include navigator.html %}
-{% unless page.use_jumbotron == 'no' %}
+{% if page.use_jumbotron == 'yes' %}
   {% include jumbotron.html %}
-{% endunless %}
+{% endif %}
