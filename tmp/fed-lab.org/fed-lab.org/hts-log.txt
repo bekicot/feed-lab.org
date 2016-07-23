@@ -1,0 +1,14 @@
+HTTrack3.48-21 launched on Sat, 23 Jul 2016 11:37:42 at https://www.fed-lab.org/fed-lab.org/index.html
+(winhttrack https://www.fed-lab.org/fed-lab.org/index.html -O "fed-lab.org/fed-lab.org" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:37:54	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.fed-lab.org/fed-lab.org/xmlrpc0db0.php?rsd (from https://www.fed-lab.org/fed-lab.org/index.html)
+11:38:24	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.fed-lab.org/fed-lab.org/xmlrpc0db0.php?rsd (from https://www.fed-lab.org/fed-lab.org/index.html)
+11:38:24	Error: 	"Internal Server Error" (500) after 2 retries at link https://www.fed-lab.org/fed-lab.org/xmlrpc0db0.php?rsd (from https://www.fed-lab.org/fed-lab.org/index.html)
+
+HTTrack Website Copier/3.48-21 mirror complete in 42 seconds : 69 links scanned, 65 files written (1493772 bytes overall) [1405000 bytes received at 33452 bytes/sec], 176480 bytes transferred using HTTP compression in 44 files, ratio 35%, 6.9 requests per connection
+(1 errors, 2 warnings, 0 messages)
