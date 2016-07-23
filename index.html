@@ -1,23 +1,33 @@
 ---
 layout: default
 ---
+        <main class="content" id="content" role="main" itemprop="mainContentOfPage">
+            <article id="post-28" class="entry page publish author-daniel post-28" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+                <div class="entry-wrap">
+                    <header class="entry-header">
+                        <h1 class="entry-title" itemprop="headline">Home</h1>
+                    </header>
+                    <!-- .entry-header -->
+                    <div class="entry-content" itemprop="text">
+                        <p>On this web page we have collected a number of test tools which could be used to test identity federation protocols, OAuth, OpenID Connect and SAML.</p>
+                    </div>
+                </div>
+                <!-- .entry-wrap -->
+            </article>
+            <!-- #post-## -->
+        </main>
+        <!-- .content -->
+        <aside class="sidebar sidebar-primary widget-area" role="complementary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+            <section id="search-2" class="widget widget-1 even widget-first widget_search">
+                <div class="widget-wrap">
+                    <form role="search" method="get" class="search-form" action="http://fed-lab.org/">
+                        <!--  
+<input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<input type="submit" class="search-submit" value="Search">
+-->
+                    </form>
+                </div>
+            </section>
+        </aside>
+        <!-- .sidebar -->
